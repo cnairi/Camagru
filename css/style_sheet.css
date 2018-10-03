@@ -1,0 +1,164 @@
+.center, .center-column, .top, .right, .bottom, .left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-column {
+	flex-direction:column;
+}
+
+.top { align-items: flex-start; }
+.right {justify-content: flex-end; }
+.bottom {align-items: flex-end; }
+.left {justify-content: flex-start; }
+
+.single-spaced, .single-spaced * {
+	line-height: 1;
+}
+.midpage-block {
+	padding-top: 0;
+}
+
+.logo {
+    text-align:center;
+}
+
+@media (max-width: 768px) {
+	.desktop {
+		display:none;
+	}
+    #miniature {
+    width:250px;
+    height:auto;
+    margin:auto;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .mobile {
+        display:none;
+    }
+    #miniature {
+        margin-top:150px;
+        float:right;
+        width:250px;
+        height:auto;
+    }
+}
+
+.modal-style {
+    position: fixed;
+    z-index: 1; 
+    padding-top: 300px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-cont {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    position:relative;
+    top: -15px;
+    right: 5px;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#video_play {
+    width:600px;
+    margin-right:10px;
+}
+
+#central_block {
+    margin:auto;
+    width:auto;
+    max-width:900px;
+}
+
+#wall_pictures {
+    margin:auto;
+    max-width:750px;
+}
+
+#uploadpic {
+    display:inline-block;
+}
+
+#interaction_block {
+    margin:auto;
+    max-width:600px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#loader {
+    max-width:400px;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+li ul {
+    display:none;
+}
+
+ul li a {
+    display:block;
+    padding:1em;
+    text-decoration:none;
+    white-space:nowrap;
+    color:#FFF;
+}
+
+ul li a:hover {
+    background-color:RGBa(195, 162, 57, 0.5);
+}
+
+li:hover > ul {
+    display:block;
+    position:absolute;
+}
+
+li:hover li {
+    float:none;
+}
+
+li:hover a {
+    background-color:#C3A239;
+}
+
+li:hover li a:hover {
+    background-color:RGBa(195, 162, 57, 0.5);
+}
+
+#page {
+    width:750px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
