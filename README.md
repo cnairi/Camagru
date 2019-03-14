@@ -8,7 +8,7 @@ Camagru is an Instagram-like platform made to share pictures from your webcam or
 ![Signin](../master/Previews/SignIn_page.png)
 <p align="center">Sign-in page.</p>
 
-![Signup](../master/Previews/SignUp_page.png)
+![Signup](../master/Previews/SignUp_Page.png)
 <p align="center">Sign-up page.</p>
 
 ![Camera](../master/Previews/PictureEditingPage.png)
