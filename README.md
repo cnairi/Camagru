@@ -1,6 +1,10 @@
 # CAMAGRU | SHARE - LIKE - COMMENT
 Camagru is an Instagram-like platform made to share pictures from your webcam or uploaded from your computer, mixed with fun filters. It also gives an opportunity to share, comment and like with the Camagru Community!
 
+It's the first web project of 42 School, and we were only authorized to use CSS Framework. I've chosen Bulma for this one!
+
+The DB is mySql, and the project is realized in HTML/CSS, with a little Javascript. Feel free to contact me if you have any question.
+
 # FEATURES
 ![Homepage](../master/Previews/Homepage.png)
 <p align="center">Homepage, with no photos shared yet.</p>
