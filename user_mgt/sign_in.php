@@ -41,7 +41,7 @@ if (isset($_POST['login']) && $_POST['login'] != '' && isset($_POST['passwd']) &
       <p>Please, activate your account thanks to the link you receive by email before trying to sign in.<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
   }
   }
@@ -52,7 +52,7 @@ if (isset($_POST['login']) && $_POST['login'] != '' && isset($_POST['passwd']) &
       <p>Unknown User name or wrong password<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 <?php
 }
 }
@@ -63,7 +63,7 @@ if (((isset($_POST['login']) && empty($_POST['login']) && isset($_POST['passwd']
       <p>Please fill the User name and Password fields to access your account<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 <?php
 }
 
@@ -73,7 +73,7 @@ if (((isset($_POST['login']) && empty($_POST['login']) && isset($_POST['passwd']
 <section class="section has-background-light">
   <div class="container">
       <h1 class="title">Sign in</h1>
-      <h2 class="subtitle">or <strong><a href="/<?php echo ($path[7]); ?>/user_mgt/create_account.php" style="text-decoration:none; color: #C3A239;">create account</a></strong></h2>
+      <h2 class="subtitle">or <strong><a href="/<?php echo ($path[4]); ?>/user_mgt/create_account.php" style="text-decoration:none; color: #C3A239;">create account</a></strong></h2>
       <form method="post" action="">
         <div class="field">
           <p class="control has-icons-left">

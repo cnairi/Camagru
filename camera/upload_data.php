@@ -21,7 +21,7 @@ header("Content-type: image/png");
  
 $image = imagecreatefromstring($data);
 
-$mini_left = imagecreatefrompng('/Users/cnairi/Applications/mamp/apache2/htdocs' . $_POST['hidden_filter']);
+$mini_left = imagecreatefrompng('/Applications/MAMP/htdocs' . $_POST['hidden_filter']);
 
 $filter_width = imageSX($mini_left);
 $filter_height = imageSY($mini_left);

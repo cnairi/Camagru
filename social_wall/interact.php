@@ -7,13 +7,13 @@ if (!isset($_SESSION['loggued_on_user']) || $_SESSION['loggued_on_user'] == "") 
 ?>
 <article class="message" style="background-color: #efdda5;">
   <div class="message-body" style="border-color: #C3A239; color:black;">
-    Please <strong><a href="<?php echo '/' . $path[7] . '/user_mgt/sign_in.php' ?>" style="text-decoration:none;">sign in</a></strong> to join the Camagru community. 
+    Please <strong><a href="<?php echo '/' . $path[4] . '/user_mgt/sign_in.php' ?>" style="text-decoration:none;">sign in</a></strong> to join the Camagru community. 
     <br>
     You will be automatically redirected to the connexion page in a few seconds.
   </div>
 </article>
 <?php
-		header("Refresh: 5; url=/".$path[7]."/user_mgt/sign_in.php");
+		header("Refresh: 5; url=/".$path[4]."/user_mgt/sign_in.php");
 		exit();
 } else {
 	try {$conn = new PDO("$DB_DSN", $DB_USER, $DB_PASSWORD);
@@ -51,7 +51,7 @@ if (!isset($_SESSION['loggued_on_user']) || $_SESSION['loggued_on_user'] == "") 
 </div>
 <br>
 <div id="interaction_block" style="width:100%; margin:auto;">
-	<img id='<?php echo(htmlentities($_GET['img_name'])) ?>' src= '<?php echo ("/" . $path[7] . "/img/" . $img_name)?>'>
+	<img id='<?php echo(htmlentities($_GET['img_name'])) ?>' src= '<?php echo ("/" . $path[4] . "/img/" . $img_name)?>'>
 	<?php 
 	if ($like_active == 0) {
 	?>

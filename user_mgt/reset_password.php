@@ -44,7 +44,7 @@ if (isset($_POST['new_passwd']) && $_POST['new_passwd'] != "" && isset($_POST['c
       <p>Your password has been modified successfully!<br>You can now <strong><a href="sign_in.php" style="text-decoration:none; color:#C3A239;">sign in.</a></strong> You will be automatically redirected to the connexion page in a few seconds.<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
      header("Refresh: 5; url=sign_in.php");
 	 }
@@ -56,7 +56,7 @@ if (isset($_POST['new_passwd']) && $_POST['new_passwd'] != "" && isset($_POST['c
       <p>Please, enter a password with a minimum length of <strong>8 characters</strong> which contains at least <strong>one special character</strong>, <strong>one uppercase letter</strong> and <strong>one number</strong><span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
   }
 }
@@ -68,7 +68,7 @@ else if (isset($_POST['new_passwd']) && $_POST['new_passwd'] != "" && isset($_PO
       <p>You enter two different passwords! Please, try again and use the same new password to confirm.<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
 }
 else if (((isset($_POST['new_passwd']) && $_POST['new_passwd'] == "") || (isset($_POST['confirm_passwd']) && $_POST['confirm_passwd'] == "")) && $_POST['submit'] == "Reset password")
@@ -79,7 +79,7 @@ else if (((isset($_POST['new_passwd']) && $_POST['new_passwd'] == "") || (isset(
       <p>Please, fill in the required fields.<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
 }
 ?>

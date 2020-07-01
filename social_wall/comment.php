@@ -45,7 +45,7 @@ function confirmation_email($user_login, $login, $email) {
   It seems that '.$login.' has just left you a new comment on one of your pics.
 
   Please, sign in to read it:
-  http://localhost:8100/'.$path[7].'/social_wall/interact.php?img_id='.intval($_POST['hidden_img_id']).'&user_login='.$user_login.'
+  http://localhost/'.$path[4].'/social_wall/interact.php?img_id='.intval($_POST['hidden_img_id']).'&user_login='.$user_login.'
 
   --------------
   This is an automated message - Please do not reply directly to this email.';

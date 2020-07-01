@@ -48,7 +48,7 @@ if (((isset($_POST['login']) && $_POST['login'] != "") || (isset($_POST['passwd'
       		<p>User name already used, please chose another one<span class="close">&times;</span></p>
     	</div>
   	</div>
- 	<script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ 	<script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
   		}
   		else {
@@ -69,7 +69,7 @@ if (((isset($_POST['login']) && $_POST['login'] != "") || (isset($_POST['passwd'
           <p>Too long username! Please, choose another one shorter than 255 characters.<span class="close">&times;</span></p>
       </div>
     </div>
-  <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+  <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 <?php
       }
   	}
@@ -92,7 +92,7 @@ if (((isset($_POST['login']) && $_POST['login'] != "") || (isset($_POST['passwd'
       <p>Please, enter a password with a minimum length of <strong>8 characters</strong> which contains at least <strong>one special character</strong>, <strong>one uppercase letter</strong> and <strong>one number</strong><span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
 }
 else {
@@ -103,7 +103,7 @@ else {
       <p>You enter two different passwords! Please, try again and use the same new password to confirm.<span class="close">&times;</span></p>
     </div>
   </div>
- <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 
 <?php
 }
@@ -121,7 +121,7 @@ else {
           <p>Please enter a valid email address<span class="close">&times;</span></p>
       </div>
     </div>
-  <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+  <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 
 <?php
         }
@@ -139,7 +139,7 @@ else {
       		<p>Email address already used, please use another one<span class="close">&times;</span></p>
     	</div>
   	</div>
- 	<script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+ 	<script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
  <?php
   		}
   	}
@@ -169,7 +169,7 @@ else {
 		<p>Information successfully modified<span class="close">&times;</span></p>
     </div>
   </div>
-<script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+<script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 <?php
 }
 }

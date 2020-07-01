@@ -14,7 +14,7 @@ function reset_password_email($email) {
 
   We are here to help. Click on the link below to change your password.
 
-  http://localhost:8100/'.$path[7].'/user_mgt/reset_password.php?email='.urlencode($email).'
+  http://localhost/'.$path[4].'/user_mgt/reset_password.php?email='.urlencode($email).'
 
   --------------
   This is an automated message - Please do not reply directly to this email.';
@@ -40,7 +40,7 @@ if (isset($_POST['email']) && $_POST['email'] != "" && filter_var($_POST['email'
           <p>We've just sent you an email to reset your password!<br>You will be automatically redirected to the connexion page in a few seconds.<span class="close">&times;</span></p>
       </div>
     </div>
-  <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+  <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 
 <?php
     header("Refresh: 5; url=sign_in.php");
@@ -53,7 +53,7 @@ if (isset($_POST['email']) && $_POST['email'] != "" && filter_var($_POST['email'
           <p>We have no account registered for this address.<br>Please <strong><a href="create_account.php" style="text-decoration:none; color:#C3A239;">create an account</a></strong> to sign in!<span class="close">&times;</span></p>
       </div>
     </div>
-  <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+  <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 
 <?php
   }
@@ -67,7 +67,7 @@ if (isset($_POST['email']) && ($_POST['email'] == "" || !filter_var($_POST['emai
           <p>Please enter a valid email address to reset your password.<span class="close">&times;</span></p>
       </div>
     </div>
-  <script src="/<?php echo ($path[7]); ?>/app.js" type="text/javascript"></script>
+  <script src="/<?php echo ($path[4]); ?>/app.js" type="text/javascript"></script>
 
 <?php
 }

@@ -20,7 +20,7 @@ if ($stmt->execute(array(':user_login' => $user_login)) && $row = $stmt->fetch()
 
 <article class="message is-danger">
   <div class="message-body" style="color:black;">
-    Your account has already been activated. Please <strong><a href="/<?php echo ($path[7]); ?>/user_mgt/sign_in.php" style="text-decoration:none;">sign in</a></strong>.
+    Your account has already been activated. Please <strong><a href="/<?php echo ($path[4]); ?>/user_mgt/sign_in.php" style="text-decoration:none;">sign in</a></strong>.
     <br>
     You will be automatically redirected to the connexion page in a few seconds.
   </div>
@@ -34,7 +34,7 @@ header("Refresh: 5; url=sign_in.php");
 
 <article class="message" style="background-color: #efdda5;">
   <div class="message-body" style="border-color: #C3A239; color:black;">
-    Your account has been activated successfully! You can now <strong><a href="/<?php echo ($path[7]); ?>/user_mgt/sign_in.php" style="text-decoration:none;">sign in</a></strong>. 
+    Your account has been activated successfully! You can now <strong><a href="/<?php echo ($path[4]); ?>/user_mgt/sign_in.php" style="text-decoration:none;">sign in</a></strong>. 
     <br>
     You will be automatically redirected to the connexion page in a few seconds.
   </div>
@@ -50,7 +50,7 @@ header("Refresh: 5; url=sign_in.php");
 
 <article class="message is-danger">
   <div class="message-body" style="color:black;">
-    Error! Your account couldn't be activated... Please contact us at cnairi@student.42.fr or <strong><a href="/<?php echo ($path[7]); ?>/user_mgt/create_account.php" style="text-decoration:none;">create a new account</a></strong>.
+    Error! Your account couldn't be activated... Please contact us at cnairi@student.42.fr or <strong><a href="/<?php echo ($path[4]); ?>/user_mgt/create_account.php" style="text-decoration:none;">create a new account</a></strong>.
   </div>
 </article>
 

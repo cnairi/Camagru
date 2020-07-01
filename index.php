@@ -82,9 +82,9 @@ while ($data = $stmt->fetch()) {
 <div class="tile is-parent" style="border:none;">
     <article class="tile is-child media" style="border:none;">
       <div class="media-left">
-      <a href="/<?php echo ($path[7]); ?>/social_wall/interact.php?img_id=<?php echo($data['img_id'])?>&user_id=<?php echo($data['user_id'])?>">
+      <a href="/<?php echo ($path[4]); ?>/social_wall/interact.php?img_id=<?php echo($data['img_id'])?>&user_id=<?php echo($data['user_id'])?>">
         <figure class="image">
-          <img class="reponsive" id='<?php echo($data['img_name']) ?>' src= '<?php echo ("/" . $path[7] . "/img/" . $data['img_name'])?>'>
+          <img class="reponsive" id='<?php echo($data['img_name']) ?>' src= '<?php echo ("/" . $path[4] . "/img/" . $data['img_name'])?>'>
         </figure>
       </a>
         </div>
@@ -102,7 +102,7 @@ else {
 </div>
 </section>
 <div id="loader">
-<img src="/<?php echo ($path[7]); ?>/img/cat_tail_loader.gif">
+<img src="/<?php echo ($path[4]); ?>/img/cat_tail_loader.gif">
 </div>
 <br>
 <div>
