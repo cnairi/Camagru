@@ -7,8 +7,10 @@ The DB is mySql, and the project is realized in HTML/CSS, with a little Javascri
 
 # INSTALL
 Clone this project in your htdocs root folder.
+
 Change credentials in config/database.php. You have to put your own phpmyadmin credentials in order to make it work.
-In php.ini, you may need to change your smtp_port to your local ip to be able to sen emails. Be careful, it works fine with gmail addresses, but icloud does not seem to accept camagru emails.
+
+In php.ini, you might need to change your smtp_port to your local ip to be able to sen emails. Be careful, it works fine with gmail addresses, but icloud does not seem to accept camagru emails.
 
 # FEATURES
 ![Homepage](../master/Previews/Homepage.png)
