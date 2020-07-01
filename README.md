@@ -5,6 +5,11 @@ It's the first web project of 42 School, and we were only authorized to use CSS 
 
 The DB is mySql, and the project is realized in HTML/CSS, with a little Javascript. Feel free to contact me if you have any question.
 
+# INSTALL
+Clone this project in your htdocs root folder.
+Change credentials in config/database.php. You have to put your own phpmyadmin credentials in order to make it work.
+In php.ini, you may need to change your smtp_port to your local ip to be able to sen emails. Be careful, it works fine with gmail addresses, but icloud does not seem to accept camagru emails.
+
 # FEATURES
 ![Homepage](../master/Previews/Homepage.png)
 <p align="center">Homepage, with no photos shared yet.</p>
@@ -29,7 +34,3 @@ The DB is mySql, and the project is realized in HTML/CSS, with a little Javascri
 
 ![profile](../master/Previews/ProfilePage.png)
 <p align="center">More practically, you can modify your info at any time and also recover your password if you're not logged in and can't remember it!</p>
-
-Clone this project in your htdocs root folder.
-Change credentials in config/database.php. You have to put your own phpmyadmin credentials in order to make it work.
-In php.ini, you may need to change your smtp_port to your local ip to be able to sen emails. Be careful, it works fine with gmail addresses, but icloud does not seem to accept camagru emails.
